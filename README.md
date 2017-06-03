@@ -16,7 +16,7 @@ Int64 hash (String s)
     String letters = "acdegilmnoprstuw"
     for(Int32 i = 0; i < s.length; i++) 
     {
-        h = (h * 37 + letters.indexOf(s[i]))
+         h = (h * 37 + letters.indexOf(s[i]))
     }
     return h
 }
